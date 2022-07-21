@@ -328,7 +328,9 @@ aside {
   height: 400px;
   position: relative;
 }
-
+.aya{
+  color:#3849A8;
+}
 @media (min-width: 576px) {
   aside {
     height: 100vh;
