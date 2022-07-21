@@ -3,7 +3,7 @@
 <br />
 <p align="center">
     <a href="LINK">
-        <img src="./img/profile_big.jpg" alt="Logo" width="80" height="80">
+        <img src="LINK/img/profile_big.jpg" alt="Logo" width="80" height="80">
     </a>
     <h3 align="center">LINK</h3>
     <p align="center">
