@@ -1453,3 +1453,55 @@ main {
     stroke-dashoffset: -136px;
   }
 }
+
+/*sebaGh CSS*/
+.container1{
+  padding-left: 2rem;
+}
+.websiteTitle{
+    
+   color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #30557a;
+}
+
+.title{
+  font-family: "Playfair Display", times, serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(3, 3, 3);
+  
+}
+.paragraph{
+  color: rgb(131, 129, 129);
+  font-size: 18px;
+  padding-left: 0.8rem;
+}
+.listt{
+  margin-left: 0.1rem;
+}
+.listt li{
+  list-style: none;
+  display: flex;
+}
+.paragraph1{
+  padding-left: 2rem;
+}
+
+
+.paragraph li{
+  color: rgb(131, 129, 129);
+  font-size: 18px;
+  
+}
+.icons{
+  margin-top: 0.3rem;
+  margin-right: 0.8rem;
+  font-size: 25px;
+}
+.se11,.se11 li{
+   color: #30557a;
+   font-size: 15px;
+}
