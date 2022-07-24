@@ -493,7 +493,7 @@ aside {
   background-position: center center;
   background-size: cover;
   height: 400px;
-  position: relative;
+  position:relative ;
 }
 
 .aya {
@@ -1663,6 +1663,98 @@ main {
     stroke-dashoffset: -136px;
   }
 }
+<<<<<<< HEAD
+.skillsSection {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+
+ align-items: center;
+}
+
+
+.skillsSection h3 span{
+  color: rgb(7, 6, 7);
+  font-size: 30px;
+  font-weight: 200;
+  display:inline-block;
+  margin-right: 70px;
+ 
+  
+  padding: 30px;
+}
+skillsSection li {
+  margin-bottom: 15px;
+  font-weight: bold;
+ align-items: center;
+}
+progress {
+  width: 70%;
+  height: 20px;
+  color: #3fb6b2;
+  background: #efefef;
+}
+progress::-webkit-progress-bar {
+  background: #efefef;
+}
+progress::-webkit-progress-value {
+  background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+  color: #3fb6b2;
+  background: #efefef;
+}
+form {
+  text-align: center;
+  margin-top: 0;
+}
+.submit {
+  background-color: #3fb6b2;
+  padding: 12px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: #43a09d;
+}
+textarea {
+  height: 100px;
+}
+input, textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
+}
+footer{
+  padding: 100px;
+  background-color: #fff;
+  
+}
+.social-icons a img{
+  padding-right: 30px;
+  align-items: center;
+
+  
+}
+
+.copyright {
+  font-size: 8pt;
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
+}
+=======
 
 /*sebaGh CSS*/
 .container1{
@@ -1715,3 +1807,4 @@ main {
    color: #30557a;
    font-size: 15px;
 }
+>>>>>>> f36ee5896b840c83522adf8291498326982e934a
