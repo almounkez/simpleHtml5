@@ -11,17 +11,13 @@
 
 }
 
-section{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-
-}
-section article {
+ article {
     border-color: #607d8b;
-    padding-right: 15px;
-    width: 100%;
+    /* padding-right: 15px; */
+    width: 75%;
 }
+aside
+{width: 50%;}
  
 
 .btn-primary {
@@ -47,4 +43,10 @@ section article {
 .name-size{
     font-size: 1.1rem;
     color: black;
+}
+footer{
+padding: 0.15rem;
+width: 100%;
+text-align: center;
+
 }
