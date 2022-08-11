@@ -1,0 +1,16 @@
+html,body,h1,h2,h3,h4,h5,h6 
+{
+    font-family: "Roboto", sans-serif
+
+}
+#mypic{
+    padding-left: 12px;
+    width: 60%;
+    overflow: auto;
+}
+.content{
+    max-width: 1400px;
+}
+.fa{
+    margin: 10px;
+}
