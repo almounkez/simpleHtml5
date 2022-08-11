@@ -1,0 +1,8 @@
+:root{
+
+    --main-color: hsl(340, 100%, 31%);
+    --main-color-alpha: hsla(340, 100%, 31%, 0.1);
+    --bg-color: hsl(340, 100%, 92%);
+    --bg-color-alpha: hsl(340, 100%, 92%,.1);
+    --shadow:  hsla(340, 13%, 49%, 0.438);
+}
