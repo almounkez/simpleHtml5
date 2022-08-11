@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing:border-box;
+
+}
+body{
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+img {
+    width: 200px;
+    position:absolute;
+    top:0;
+   
+}
+.container{
+    position:relative;
+    width:100%;
+    max-width:1000px;
+    min-height:1000px;
+    background:#fff;
+    margin:50px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    box-shadow:0 35px 55px rgba(0,0,0,0.1)
+}
+.container .left_Side{
+    position:relative;
+    background:#003147;
+    padding:40px;
+
+}
+.profiletext{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+
+}
+.profiletext h2{
+    color:#fff;
+    font-size:1.5em;
+    margin-top:20px;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:600;
+    line-height:1.4em;
+    
+
+}
+.profiletext h2 span{
+font-size:0.8em;
+font-weight:300;
+}
+
+.contactInfo{
+    padding-top:40px;
+}
+.title{
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:20px;
+
+}
+.contactInfo ul{
+    position:relative;
+    list-style:none;
+    
+
+}
+.contactInfo{
+    list-style-type:none;
+    margin:10px 0;
+    cursor:pointer;
+}
+.contactInfo ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size:18px;
+    color:#03a9f4;
+}
+.contactInfo ul li span{
+    color:#fff;
+    font-weight:300;
+    padding:10px;
+}
+
+.profiletext .imgBx{
+    position:relative;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.container .right_Side{
+    position:relative;
+    background:#fff;
+    padding:40px;
+    
+}
+  
+.title{
+    color:white;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:1px;
+    margin:20px;
+}
+
+
+.container .left_Side .edu ul li h4{
+    color:#03a9f4;
+    font-weight:500;
+}
+.container .left_Side .edu ul li h5{
+    color:#fff;
+    font-weight:500;
+}
+.container .left_Side .lang .percent{
+    position:relative;
+    width:100px;
+    height:6px;
+    background:#081921;
+    display:block;
+    margin-top:5px;
+    
+}
+.container .left_Side .lang .percent div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:#03a9f4;
+    
+}
+.text{
+    color:#fff;
+    font-weight: 500;
+}
+.title2{
+    color:#003147;
+ 
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.container .right_Side div p{
+    font-size: 10pt;
+   
+    color:#333;
+}
+ .percent{
+    position:relative;
+    width:100px;
+    height:6px;
+    background:#081921;
+    display:block;
+    margin-top:5px;
+    
+}
+.skills .box h4 {
+    text-transform:uppercase;
+    color:#848c99;
+    font-weight:500;
+}
+.skills .box .percent{
+    position:relative;
+    width:60%;
+    height:10px;
+    background:#f0f0f0;
+}
+.skills .box .percent div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:#03a9f4;
+    
+}
+@media(max-width:768px){
+    .container{
+        margin:10px;
+        grid-template-columns:repeat(1,1fr);
+    }
+}
