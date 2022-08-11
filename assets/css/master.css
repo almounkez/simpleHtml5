@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+#btn1{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+}
+nav{
+    background-color: black;
+    
+    font-style: italic;
+    background-color:rgb(0, 0, 0);
+    /* background:linear-gradient(#a490ff,rgba(0, 10, 143, 0.774)); */
+}
+#icon{
+    color: #fff;
+   
+}
+.navbar .navbar-brand{
+    color: white    ;
+}
+.nav-link,.navbar-brand {
+    color: #fff;
+    border-radius:25px ;
+    padding: 10px;
+}
+.navbar .nav-link{
+    color:white;
+   transition: 0.3s;
+}
+.nav-link:hover{
+    color: rgb(255, 208, 0);
+    /* background-color: red; */
+}
+
+.landing{
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    
+    /* background:linear-gradient(rgb(0, 10, 143),#ffffff); */
+}
+.landing h1{
+    color: #fff;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: control-width 2s steps(10) both , blink 0.5s infinite ;
+    text-shadow: black 4px 3px 6px;
+    font-size: 40px;
+    text-align: center;
+}
+.landing p {
+    font-size:25px ;
+    color: #fff;
+    white-space: nowrap;
+    
+    overflow: hidden;
+    animation: control-width 2s steps(10) both , blink 0.5s infinite ;
+    text-shadow: rgba(0, 0, 0, 0.5) 5px 5px 6px;
+    
+    text-align: center;
+    border: none;
+    animation: control-width 2s steps(19) both  ;
+}
+#row1{
+    /* background-color: rgba(128, 128, 128, 0.13); */
+    border-radius: 35px;
+    background: linear-gradient(95deg, black, transparent);
+}
+.cont{
+    margin:100px 0px; 
+    
+}
+@keyframes control-width{
+    from{
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes img2{
+    0%{transform: translate(600px,-600px);}
+    100%{transform: translate(0px,0px);}
+}
+#img1{
+    width: 300px; ;
+    height:290px ;
+    animation: img2 3s ;
+    box-shadow:  black -12px 12px 10px ;
+}
+
+@keyframes blink {
+    from {
+        border-right-color:black ;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+#profilenav{
+   border: black 2px solid ;
+   border-radius: 50px;
+}
+#img-content{
+    width: 100%;
+    height: 90%;
+}
+#text-content{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-family: initial;
+    font-size: 20px;
+}
+/* under content */
+
+#skill {
+    margin: auto;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    width: fit-content;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #333;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, #00adff, transparent);
+    /* border-radius: 20px; */
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 2px;
+}
+#skill::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: blue;
+    transition: 0.5s;
+    width: 0;
+    white-space: nowrap;
+    font-style: italic;
+    overflow: hidden;
+    padding: 2px;
+}
+#skill:hover::before{
+    width: 100%;
+}
+.card-img-top{
+    height: 40vh;
+   
+    
+}
+.progress{
+    position: relative;
+    background-color: #fff;
+    margin: 1px;
+    height: 20px;
+}
+.progress span{
+    height: 100% ;
+    position: absolute;
+    background-color: red;
+    transition:width 0.3s linear ;
+}
+
+#phase {
+    margin: auto;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    width: fit-content;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #333;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000e0, transparent);
+    /* border-radius: 25px; */
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 2px;
+}
+#phase::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: red    ;
+    transition: 0.5s;
+    width: 0;
+    white-space: nowrap;
+    font-style: italic;
+    overflow: hidden;
+    padding: 2px;
+}
+#phase:hover::before{
+    width: 100%;
+}
+.list-unstyled{
+    font-weight: bold;
+    font-style: italic;
+    background: linear-gradient(266deg, #000000d6, transparent);
+    padding: 20px 15px;
+    border: 3px solid #000;
+}
+marquee{
+    background-color: yellow;
+    border-top:2px black solid ;
+    border-bottom:2px black solid ;
+}
