@@ -1,0 +1,142 @@
+body {
+  margin: 0.4%;
+  padding: 0.4%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+
+button {
+  width: 25%;
+  border: 0;
+  padding: 1%;
+  color: black;
+  border: 2px solid rgb(223, 222, 222);
+  background: linear-gradient(-90deg, #f5ce62, #e85a19);
+  justify-content: center;
+  outline: none;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: width 0.5s;
+  font-weight: 800
+}
+
+/* ............................... ...... classes ..................................*/
+
+.image {
+  position: relative;
+  width: 400px;
+
+}
+
+.image__img {
+  display: block;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+
+}
+
+.image__overlay:hover {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.section__header {
+  text-transform: uppercase;
+  background: rgb(223, 222, 222);
+  ;
+  color: dark;
+  border-radius: 20%;
+  text-align: center;
+  padding: 1%;
+  margin: 1%
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* profile Section*/
+.container__profile {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+
+/*............................................................................................................*/
+
+
+/* Educations Section*/
+
+/* Experience Section */
+/* Targeted skills Section */
+
+
+
+/* button:hover{width:160px;display:flex;align-items:center;justify-content: space-between;}  */
+/* .contact
+{
+content:'';
+width:10px;
+height: 50px;
+background:linear-gradient(#ff469f,#ff6062);
+position:absolute;
+left:-40px;
+top:8px;
+} */
+
+
+
+/* .contact {
+   border-left: 6px solid   rgb(223, 222, 222); 
+  height: 25%; 
+  
+  position: absolute;
+  left: 50%;
+  top: 0;
+margin-left:0;
+padding-left:0;
+  margin-top: 5.5rem;
+  float: none;
+}  */
+
+/* .icon {
+  color: rgb(65, 66, 89);
+  margin-left: 0.3rem;
+  font-size:large;
+  display: inline
+} */
