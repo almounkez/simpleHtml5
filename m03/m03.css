@@ -87,10 +87,8 @@ img#personal-img {
   }
 
 #personal-img:hover {
-
     width: 400px;
     height:400px;
-
   }
 
   .rotated-border{
@@ -206,6 +204,7 @@ font-size: 72px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /* particles */
  canvas{ display: block; vertical-align: bottom; } 
  /* ---- particles.js container ---- */ 
