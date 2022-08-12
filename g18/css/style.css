@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+body{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+
+}
+header{
+  position: fixed !important;
+  top: 0px !important;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #001d3d;
+  overflow: visible;
+ 
+}
+
+
+.navbar a {
+  float: none;
+  color: rgb(231, 219, 219);
+}
+
+nav ul li a{
+  color: #a9a9a9;
+  font-size: 40px;
+  margin-left: 50%;
+}
+
+a.nav-link:hover{
+color: #f94144;
+}
+.col .nav-item a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.dropdown-item{
+  color: black;
+}
+a.dropdown-item:hover{
+  color: blue;
+}
+.pb-5{
+  padding-bottom: 23%;
+}
+.pt-5{
+  padding-top: 23% !important;
+}
+
+.top h1 {
+  font-size: 4rem !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+#carouselDark{
+  margin: auto;
+}
+.date-div{
+  padding-top: 200px;
+}
+.navbar{
+  padding-top: auto;
+}
+.img1 {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.enlarge-onhover {
+  width: 200px;
+  height: 200px;
+}
+
+.enlarge-onhover:hover {
+  width: 300px;
+  height: 300px;
+}
+.top{
+  height: 35rem !important;
+  padding-top: 5%;
+}
+.section{
+  /* position: relative; 
+   /* fill up 85% of screen heigth */
+   height: 100vh;
+  display: "inline-block";
+   /* fill up 100% of screen width */
+   width: 100vw;
+}
+.paddsection {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  
+}
+#education{
+  align-items: center;
+  width:950px;
+  height:auto;
+  padding-left: 20%;
+}
