@@ -67,6 +67,7 @@ background: linear-gradient(90deg, rgba(0,33,36,1) 0%, rgba(61,9,121,1) 47%, rgb
 
 nav .navbar-nav li a{
     position: relative;
+    font-weight: 600;
 }
 .active::before{
     content: '';
@@ -92,6 +93,24 @@ nav .navbar-nav li a{
     top: 0;
     border-radius: 10px;
 }
+
+.glow {
+    margin: 0;
+    z-index: 1;
+  font-family: 'Times New Roman', Times, serif ;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+    -webkit-text-stroke: thick;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
 .centered {
     display: flex;
     justify-content: center;
