@@ -64,8 +64,33 @@ header li a::before {
     background: rgb(0,33,36);
 background: linear-gradient(90deg, rgba(0,33,36,1) 0%, rgba(61,9,121,1) 47%, rgba(0,212,255,1) 100%);
 }
-.active{
-    border: #302b63 solid 3px;
+
+nav .navbar-nav li a{
+    position: relative;
+}
+.active::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-radius: 10px;
+}
+
+.active:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 106, 245, 0.3);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
 }
 .centered {
     display: flex;
@@ -171,7 +196,8 @@ section#section-edu{
     background: #0F2027; 
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-
+position: relative;
+overflow: hidden;
 }
 #section-edu-content{
 background: rgba(255, 255, 255, 0.2);
@@ -186,7 +212,7 @@ transform: translate(0,40px);
 section#section-exp{
     background: #373B44;
 background: -webkit-linear-gradient(to right, #4286f4, #373B44); 
-background: linear-gradient(to right, #4286f4, #373B44); 
+background: linear-gradient(to right, #4286f4, #373B44);
 }
 #section-exp-content{
 background: rgba(44, 149, 163, 0.2);
@@ -228,6 +254,34 @@ font-size: 72px;
   -webkit-text-fill-color: transparent;
   font-family: 'Rubik Distressed' , 'Times New Roman', Times, serif ;
 }
+
+section#section-edu::before{
+    animation-delay: -2.5s;
+    background: #e0e793;
+    background: -moz-radial-gradient(bottom right, #e0e793, #6dd0f1);
+    background: radial-gradient(to top left, #e0e793, #6dd0f1);
+    background: -webkit-radial-gradient(bottom right, #e0e793, #6dd0f1);
+    right: 0;
+    top: 25%;
+    z-index: 0;
+    animation: orbit 5s linear infinite;
+      border-radius: 50%;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+      content: "";
+      height: 150px;
+      position: absolute;
+      width: 150px;
+}
+@keyframes orbit {
+    from {
+      transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+  }
+
+
 
 /* particles */
  canvas{ display: block; vertical-align: bottom; } 
