@@ -4,10 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Google Fonts -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="m08/css/styles.css">
+<!-- Bootstrap -->
 <link rel="stylesheet" href="m08/css/Bootstrap/bootstrap.min.css">
+<!-- Animate on scroll -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 
 <body class="w3-light-grey">
@@ -50,18 +55,18 @@
 <div class="content w3-content w3-margin-top">
 
   <!-- The Grid -->
-  <div class="w3-row-padding">
+  <div class="row">
   
     <!-- Left Column -->
-    <div class="w3-third ;">
+    <div class="col-lg-4 col-md-6 col-sm-12">
     
-      <div class="w3-white w3-text-grey w3-card-4">
+      <div class="w3-white w3-text-grey w3-card-4" data-aos="fade-right">
         <div class="w3-display-container">
           <img id="mypic" class="w3-padding-16" src="m08/img/mypic.JPG" style="width:100%">          
           
           <p class="w3-large w3-center">Mohammad Mohannad Khier</p>          
         </div>
-        <div class="w3-container w3-mobile">
+        <div class="container d-flex flex-column justify-content-start">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Developer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Damascus, Syria</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mohannad.khier@gmail.com</p>
@@ -96,19 +101,20 @@
           </div>
           <p>English</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>          
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%">
+            </div>
+          </div>
           <br>
         </div>
       </div><br>
 
     <!-- End Left Column -->
-    </div>
+    </div>    
 
     <!-- Right Column -->
-    <div class="w3-twothird">
+    <div class="col-lg-8 col-md-6 col-sm-12">
     
-      <div id="work_experience" class="w3-container w3-card w3-white w3-margin-bottom">
+      <div id="work_experience" class="w3-container w3-card w3-white w3-margin-bottom" data-aos="fade-left">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>        
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Call Center Representative at MTN Syria</b></h5>
@@ -116,14 +122,14 @@
           
           <hr>
         </div>
-        <div class="w3-container w3-mobile">
+        <div class="w3-container">
           <h5 class="w3-opacity"><b>Sales Representative at Stationary Store</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2016 - Jul 2018</h6>
           <br>
         </div>
       </div>
 
-      <div id="Education" class="w3-container w3-card w3-white">
+      <div id="Education" class="w3-container w3-card w3-white" data-aos="fade-up">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Almounkez Company</b></h5>
@@ -168,5 +174,9 @@
 </footer>
 <script src="m08/js/Bootstrap/bootstrap.bundle.js"></script>
 <script src="m08/js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
