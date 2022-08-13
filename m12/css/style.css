@@ -1,0 +1,99 @@
+/* general */
+h1,h2,h3,p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+/* / */
+nav {
+    color:blanchedalmond;
+}
+
+.header {
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color:whitesmoke;
+}
+  
+.title {
+    text-align: right;
+}
+@media ( max-width:992px) {
+    .title {
+        text-align: center;
+       /* padding-bottom: px; */
+    }
+
+}
+.title h1 {
+    font-weight: bolder;
+    
+    margin-top: 170px;
+}
+/* desc section */
+.self-desc {
+    
+    text-align: center;
+    transition: .5s;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.self-desc p {
+   padding-top: 20px;
+   background-color:#E8EEEE;
+    border-radius: 3%;
+   font-size: large;
+   font-weight: bold;
+   
+}
+.img-norm {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+   
+}
+.img-scale{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    transform: scale(1.1);
+}
+ /* skills section */
+
+.skills>h2 {
+    text-align: center;
+    background-color: #bdd4d4;
+    border-radius: 25%;
+
+}
+.skills>p {
+    color: #333;
+    text-align: center;
+}
+
+/* looking */
+.looking {
+    margin-top: 10%;
+}
+.looking>h2 {
+    text-align: center;
+    background-color: #6e8989;
+    border-radius: 25%;
+}
+.looking>p {
+    color: #333;
+    text-align: center;
+}
+/* contact */
+.contact {
+    margin-top: 10%;
+    text-align: center;
+}
