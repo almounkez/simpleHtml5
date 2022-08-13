@@ -212,9 +212,9 @@ img#personal-img {
   }
 
 section#section-edu{
-    background: #0F2027; 
+    /* background: #0F2027; 
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
 position: relative;
 overflow: hidden;
 }
@@ -265,9 +265,13 @@ transform: translate(0,40px);
     transition: 0.4s ease-out;
 }
 
-#com{
-    background: rgb(30,161,173);
-background: radial-gradient(circle, rgba(30,161,173,1) 12%, rgba(88,9,121,0.6755077030812324) 44%, rgba(172,19,227,1) 69%, rgba(17,87,101,1) 100%);
+#com {
+box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1px);
+border-radius: 50px;
+-webkit-backdrop-filter: blur(1px);
+    /* background: rgb(30,161,173); */
+background: radial-gradient(circle, rgb(19, 107, 116) 12%, rgba(88,9,121,0.6755077030812324) 44%, rgba(172,19,227,1) 69%, rgba(17,87,101,1) 100%);
 font-size: 72px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
