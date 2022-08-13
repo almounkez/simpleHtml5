@@ -23,23 +23,27 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item w3-margin-left">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item w3-margin-left">
             <a class="nav-link" href="#Education">Education</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item w3-margin-left">
             <a class="nav-link" href="#work_experience">Work Experience</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item w3-margin-left">
             <a class="nav-link" href="#Contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <button onclick="hideImg()" class="btn btn-primary">Hide image</button>
-            <button onclick="showImg()" class="btn btn-success">Show image</button>
-          </li>
-        </ul>
+          <li class="nav-item dropdown w3-margin-left">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" onclick="hideImg()">Hide Image</a></li>
+              <li><a class="dropdown-item" onclick="showImg()">Show Image</a></li>              
+            </ul>
+          </li>  
       </div>      
     </div>
   </nav>
@@ -54,9 +58,9 @@
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container w3-mobile">
-          <img id="mypic" src="m08/img/mypic.JPG" alt="">          
+          <img id="mypic" class="w3-padding-16" src="m08/img/mypic.JPG" style="width:100%">          
           
-          <h2 style="padding-left:12px; width: 60%;">Mohannad Khier</h2>          
+          <p class="w3-large w3-center">Mohammad Mohannad Khier</p>          
         </div>
         <div class="w3-container w3-mobile">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Developer</p>
@@ -161,7 +165,7 @@
     <i class="fa fa-instagram w3-hover-opacity"></i>    
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <p>Powered by w3.css</p>
 </footer>
 <script src="m08/js/Bootstrap/bootstrap.bundle.js"></script>
 <script src="m08/js/main.js"></script>
